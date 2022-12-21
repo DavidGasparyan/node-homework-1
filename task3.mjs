@@ -1,8 +1,6 @@
 import * as fs from 'fs';
 import csv from 'csvtojson';
-import * as url from "url";
 
-const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 const handleError = function (err) {
   console.log(err);
 }
